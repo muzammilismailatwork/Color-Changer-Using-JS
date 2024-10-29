@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.clickBtn{
+    margin: 0 auto;
+    padding: 0px 10px;
+    border-color: black;
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 8rem;
+}
+h1{
+    text-align: center;
+    color: white !important;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+h1 span{
+    color: rgb(47, 47, 228);
+}
